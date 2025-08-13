@@ -6,7 +6,8 @@ This repo stores all the settings to make resetting your laptop/PC easy.
 ---
 
 ## 🖼 Preview
-![Preview](Screenshot-2025-08-12_14:38:52.png)
+![Preview](preview/preview.png)
+
 
 ---
 
