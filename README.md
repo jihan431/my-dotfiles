@@ -7,6 +7,10 @@ This repo stores all the settings to make resetting your laptop/PC easy.
 
 ## 🖼 Preview
 ![Preview](preview/preview.png)
+## 🖼 Performance
+![Preview](preview/p.png)
+## 🖼 balance
+![Preview](preview/b.png)
 
 
 ---
