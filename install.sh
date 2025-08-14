@@ -1,21 +1,36 @@
 #!/bin/bash
+set -e
 
-# ================
-# Dotfiles by    #
-# Jihan Nugraha  #
-# ================
+echo "🚀 Starting dotfiles install..."
 
-set -e 
+# 1. Update sistem
+echo "📦 Updating system..."
+sudo pacman -Syu --noconfirm
 
-SRC_DIR="$(cd "$(dirname "$0")" && pwd)/.config"
-DEST_DIR="$HOME/.config"
+# 2. Install paket dari repo resmi
+echo "📥 Installing main packages..."
+sudo pacman -S --needed --noconfirm \
+    hyprland \
+    hyprpaper \
+    waybar \
+    dunst \
+    neofetch \
+    nemo \
+    python \
+    python-pip \
+    wl-clipboard \
+    xdg-desktop-portal-hyprland \
+    gtk3 \
+    ttf-jetbrains-mono \
+    noto-fonts \
+    noto-fonts-emoji \
+    wofi \
+    swww
 
-echo "🔧 Memindahkan file  $DEST_DIR ..."
+# 3. Copy dotfiles ke home
+echo "📂 Copying config files..."
+cp -r .config ~/
+cp -r preview ~/ 2>/dev/null || true
 
-# Buat folder tujuan kalau belum ada
-mkdir -p "$DEST_DIR"
-
-cp -r "$SRC_DIR"/* "$DEST_DIR"/
-
-echo "✅ DONE!"
-echo "JANGAN LUPA Mandi"
+echo "✅ Installation complete!"
+echo "💡 DIsarankan logout/reboot lagi untuk apply config."
