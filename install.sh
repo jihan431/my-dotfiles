@@ -14,7 +14,6 @@ sudo pacman -S --needed --noconfirm \
     hyprpaper \
     waybar \
     dunst \
-    neofetch \
     nemo \
     python \
     python-pip \
