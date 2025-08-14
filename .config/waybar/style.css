@@ -17,8 +17,8 @@ window#waybar.hidden {
 
 /*CLOCKMEDIA*/
 #custom-clockmedia {
-  background-color: rgba (0,0,0,0.8);
-  color : white;
+  background-color: rgba (0,0,0,0);
+  color : black;
   font-size:15px;
   padding-left:20px;
   padding-right:20px;
@@ -30,9 +30,9 @@ window#waybar.hidden {
 /*WORKSPACE*/
 #workspaces {
   background: transparent;
-  background-color:rgba (0,0,0,0.8);
+  background-color:rgba (0,0,0,0.4);
   border-radius: 999px;
-  margin :4px;
+  margin : 8px;
   transition: all 0.1s ease;
 }
 

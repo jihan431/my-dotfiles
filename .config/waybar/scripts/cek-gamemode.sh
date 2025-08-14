@@ -6,4 +6,3 @@ if [ -f "$FLAGFILE" ]; then
 else
     echo "💻"
 fi
-

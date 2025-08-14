@@ -1,10 +1,11 @@
+
 {
     "layer": "top",
     "position": "top",
     "spacing": 10,
     "margin-top": 5,
     "width": 600,
-    "height": 45,
+    "height": 50,
     "modules-left": [
         "custom/logo",
         "hyprland/workspaces",
@@ -124,8 +125,8 @@
 "custom/gamemode": {
   "format": "{}",
   "exec": "~/.config/waybar/scripts/cek-gamemode.sh",
-  "interval": 2,
-  "on-click": "~/.config/waybar/scripts/toggle-gamemode.sh"
+  "interval": 1,
+  "on-click": "~/.config/waybar/scripts/toggle-gamemode.sh",
 },
 
 
