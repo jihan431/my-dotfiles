@@ -1,4 +1,4 @@
-# 🛠 My Dotfiles - Jihan Nugraha
+www# 🛠 My Dotfiles - Jihan Nugraha
 
 A collection of personal configurations for Linux (Hyprland, Waybar, and more).
 This repo stores all the settings to make resetting your laptop/PC easy.
@@ -25,7 +25,7 @@ This repo stores all the settings to make resetting your laptop/PC easy.
 
 ## 🚀 How to Install
 
-### 1️1. Clone this repo
+### 1. Clone this repo
 ```bash
 git clone https://github.com/jihan431/my-dotfiles.git
 cd my-dotfiles
