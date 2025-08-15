@@ -1,4 +1,4 @@
-www# 🛠 My Dotfiles - Jihan Nugraha
+## 🛠 My Dotfiles - Jihan Nugraha
 
 A collection of personal configurations for Linux (Hyprland, Waybar, and more).
 This repo stores all the settings to make resetting your laptop/PC easy.
